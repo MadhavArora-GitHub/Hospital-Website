@@ -1,0 +1,406 @@
+/* #F5F5F5 */
+/* #E8F9FD */
+/* #37E2D5 */
+/* #2F89FC */
+/* #40514E */
+/* #34B3F1 */
+/* #4FBDBA */
+/* #79DAE8 */
+/* #DFF6FF */
+/* #495057 */
+/* #4fbdb96e */
+
+body, html {
+    text-align: center;
+    background-color: #DFF6FF;
+    overflow-x: hidden;
+    scroll-padding-top: 80px;
+}
+
+.navbar-bg {
+    background-color: #ffffff;
+    height: 80px;
+    box-shadow: 0rem 0.5rem 1.5rem #0000004f;
+}
+
+.nav-icon {
+    color: #4FBDBA;
+    padding-left: 8rem;
+    padding-right: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.nav-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #40514E;
+}
+
+.nav-item {
+    margin-right: 1rem;
+}
+
+.nav-item a {
+    color: #495057;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-item a:hover {
+    color: #4FBDBA;
+}
+
+.navbar-collapse {
+    background-color: #ffffff;
+}
+
+.home-div {
+    text-align: left;
+    background-color: #DFF6FF;
+    padding: 120px 120px 200px;
+}
+
+.home-img {
+    float: left;
+    margin-right: 100px;
+}
+
+.home-title {
+    background-color: #DFF6FF;
+    font-size: 3rem;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 0.25rem 0.25rem 0 #4fbdb96e;
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+
+.home-text {
+    background-color: #DFF6FF;
+    color: #495057;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+.home-div .c-btn {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    color: #4FBDBA;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 0.1rem solid #4FBDBA;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    box-shadow: 0.5rem 0.5rem 0 #4fbdb96e;
+}
+
+.home-div .c-btn:hover {
+    color: #ffffff;
+    background-color: #4FBDBA;
+}
+
+.about-div {
+    background-color: #ffffff;
+    text-align: left;
+    padding: 0;
+    
+}
+
+.about-title {
+    font-size: 2.5rem;
+    padding: 80px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-family: 'Josefin Sans', sans-serif ;
+    text-shadow: 0.25rem 0.25rem 0 #4fbdb96e;
+}
+
+.about-text {
+    color: #495057;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-text-show {
+    display: inline;
+}
+
+.about-text-hide {
+    display: none;
+}
+
+.about-read {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    color: #4FBDBA;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin-bottom: 50px;
+    font-size: 1.25rem;
+}
+
+.about-read:hover {
+    color: transparent;
+    text-shadow: 1rem 0rem #4FBDBA;
+
+}
+
+.features-div {
+    background-color: #DFF6FF;
+    padding: 80px 100px 30px;
+}
+
+.features-col-div {
+    text-align: center;
+    line-height: 2.5;
+    padding-bottom: 50px;
+}
+
+.features-col-div h3 {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    text-shadow: 0.2rem 0.25rem 0.1rem #4FBDBA;
+    padding: 0;
+    margin: 0;
+}
+
+.features-col-div h3:hover {
+    color: #4FBDBA;
+    text-shadow: 0.2rem 0.25rem 0.1rem #000000;
+}
+
+.features-col-div p {
+    display: inline-block;
+    color: #495057;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.features-col-div p:hover {
+    color: #4FBDBA;
+}
+
+.features-col-div i {
+    font-size: 4rem;
+    color: #4FBDBA;
+    margin-bottom: 1.5rem;
+}
+
+.features-col-div i:hover {
+    color: #79DAE8;
+}
+
+.specialities-div {
+    padding: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.specialities-left {
+    text-align: left;
+}
+
+.specialities-right {
+    text-align: center;
+}
+
+.specialities-title {
+    display: inline-block;
+    font-size: 2.5rem;
+    padding-bottom: 30px;
+    font-family: 'Josefin Sans', sans-serif ;
+    text-shadow: 0.25rem 0.25rem 0 #4fbdb96e;
+}
+
+.specialities-img {
+    width: 70%;
+}
+
+.specialities-left button {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    color: #4FBDBA;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    margin-bottom: 10px;
+    padding-right: 100px;
+}
+
+.specialities-left button:hover {
+    color: #ffffff;
+    background-color: #4FBDBA;
+}
+
+.specialities-left button i {
+    padding-right: 1rem;
+}
+
+.doctor-div {
+    text-align: left;
+    padding: 50px;
+    background-color: #DFF6FF;
+}
+
+.doctor-card {
+    font-family: 'Poppins', sans-serif;
+    width: 20rem;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    box-shadow: 0.25rem 0.25rem 0.5rem #79DAE8;
+}
+
+.doctor-card:hover {
+    opacity: 80%;
+}
+
+.doctor-title {
+    font-size: 2.5rem;
+    padding: 50px;
+    padding-top: 0;
+    font-family: 'Josefin Sans', sans-serif ;
+    text-shadow: 0.25rem 0.25rem 0 #4fbdb96e;
+    text-align: center;
+}
+
+.appointment-div {
+    padding: 50px;
+}
+
+.appointment-btn {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    color: #4FBDBA;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 0.1rem solid #4FBDBA;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    box-shadow: 0.5rem 0.5rem 0 #4fbdb96e;
+}
+
+.appointment-btn:hover {
+    color: #ffffff;
+    background-color: #4FBDBA;
+}
+
+.appointment-div form {
+    font-family: 'Poppins', sans-serif;
+    border: 3px solid #4FBDBA;
+    border-radius: 10px;
+    padding: 20px;
+    color: #495057;
+    width: 90%;
+}
+
+.appointment-div form input {
+    border-color: #4FBDBA;
+}
+
+.appointment-div form input:focus {
+    box-shadow: none;
+    border-color: #4FBDBA;
+}
+
+.appointment-title {
+    font-size: 2.5rem;
+    padding-bottom: 30px;
+    font-family: 'Josefin Sans', sans-serif ;
+    text-shadow: 0.25rem 0.25rem 0 #4fbdb96e;
+}
+
+.appointment-div form h5 {
+    font-size: 1.6rem;
+}
+
+.footer-div {
+    background-color: #DFF6FF;
+    padding: 50px 80px 0;
+}
+
+.footer-section {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-section h3 {
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer-section i {
+    color: #4FBDBA;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-section a {
+    color: #495057;
+    text-decoration: none;
+}
+
+.footer-section a:hover i {
+    padding-right: 10px;
+}
+
+.footer-section a:hover {
+    color: #495057;
+}
+
+.footer-div p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    padding: 50px;
+}
+
+.footer-div hr {
+    border-width: 0.5rem;
+    margin-top: 30px;
+    margin-bottom: 0;
+    border-color: #40514E;
+}
+

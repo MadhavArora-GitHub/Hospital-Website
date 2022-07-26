@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Hospital</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Poppins&family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/446946539d.js" crossorigin="anonymous"></script>
+
+    <!-- Script -->
+    <!-- <script src="javascript/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+
+</head>
+<body>
+
+    <!-- Navigation Bar Header -->
+    <header id="navigation-bar">
+        <div class="container-fluid">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-bg">
+                <a href="#" class="navbar-brand">
+                    <i class="fa-solid fa-hospital nav-icon"></i>
+                    <span class="nav-title">Mini Healthcare</span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#welcome-toggler" aria-controls="welcome-toggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="welcome-toggler">
+                    <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Facilities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#specialities">Specialities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#doctor">Doctors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#appointment">Appointment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="home-div">
+
+            <img src="images/doctor.png" alt="Doctor" class="home-img">
+
+            <h3 class="home-title">
+                Stay Healthy, Stay Safe
+            </h3>
+            <p class="home-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At, rerum.
+            </p>
+
+            <button type="button" class="c-btn mt-2">Contact Us</button>
+
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-div">
+            <h3 class="about-title">
+                About Us
+            </h3>
+
+            <p class="about-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, vel, molestiae sed quam voluptas vero at qui asperiores adipisci animi quod natus ad, eligendi doloremque quaerat optio placeat delectus iure repudiandae esse voluptatum ea repellat quasi quis. Ex hic mollitia qui molestias, vitae fugit voluptate doloribus? Blanditiis minima maxime ab? 
+                <span id="about-less" class="about-text-show">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, tenetur.
+                </span>
+                <span id="about-more" class="about-text-hide">
+                    <br><br>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, in cumque. Consequatur, culpa quas! Animi quam iure cum alias perspiciatis odio veritatis. Nisi esse corrupti sequi eaque delectus reprehenderit facilis expedita provident animi amet facere, architecto numquam ut ipsam dicta itaque eum veniam sed. Fugit aliquid porro voluptates autem deserunt.
+                    <br><br>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem, saepe accusantium, amet eligendi perspiciatis tenetur magnam molestias expedita illo ut iste, vel mollitia quisquam impedit numquam. Sed adipisci saepe architecto id esse, a amet doloremque. Ipsa autem magnam ad voluptatem
+                </span>
+                <br><br>
+                <button class="about-read">Read More ></button>
+            </p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <div class="features-div">
+
+            <div class="row row-cols-4">
+                <div class="col-lg-3 col-md-6 col-12 features-col-div">
+                    <i class="fa-solid fa-bed-pulse"></i>
+                    <br>
+                    <h3>200+</h3>
+                    <br>
+                    <p>
+                        Beds Facility
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 features-col-div">
+                    <i class="fa-solid fa-user-nurse"></i>
+                    <br>
+                    <h3>300+</h3>
+                    <br>
+                    <p>
+                        Trained Staff
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 features-col-div">
+                    <i class="fa-solid fa-user-doctor"></i>
+                    <br>
+                    <h3>400+</h3>
+                    <br>
+                    <p>
+                        Doctors
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 features-col-div">
+                    <i class="fa-solid fa-hand-holding-medical"></i>
+                    <br>
+                    <h3>500+</h3>
+                    <br>
+                    <p>
+                        Specialities    
+                    </p>
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Specialities Section  -->
+    <section id="specialities">
+        <div class="row specialities-div">
+            <div class="col-7 specialities-left">
+                <h3 class="specialities-title">
+                    Specialities
+                </h3>
+                <br>
+                <button class="specialities-button">
+                    <i class="fa-solid fa-dna"></i>
+                    web/app development
+                </button>
+                <button class="specialities-button">
+                    <i class="fa-solid fa-dna"></i>
+                    web/app development
+                </button>
+                <br>
+                <button class="specialities-button">
+                    <i class="fa-solid fa-dna"></i>
+                    web/app development
+                </button>
+                <button class="specialities-button">
+                    <i class="fa-solid fa-dna"></i>
+                    web/app development
+                </button>
+                <br>
+                <button class="specialities-button">
+                    <i class="fa-solid fa-dna"></i>
+                    web/app development
+                </button>
+                <button class="specialities-button">
+                    <i class="fa-solid fa-dna"></i>
+                    web/app development
+                </button>
+                <br>
+                <button class="specialities-button">
+                    <i class="fa-solid fa-dna"></i>
+                    web/app development
+                </button>
+                <button class="specialities-button">
+                    <i class="fa-solid fa-dna"></i>
+                    web/app development
+                </button>
+                <br>
+                <button class="specialities-button">
+                    <i class="fa-solid fa-dna"></i>
+                    web/app development
+                </button>
+                <button class="specialities-button">
+                    <i class="fa-solid fa-dna"></i>
+                    web/app development
+                </button>
+            </div>
+
+            <div class="col-5 specialities-right">
+                <img class="specialities-img" src="images/lungs.png" alt="Specialities">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Doctors Section -->
+    <section id="doctor">
+        <div class="row doctor-div">
+            <h3 class="doctor-title">Our Medical Experts</h3>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card doctor-card">
+                    <img src="images/medical.png" alt="Doctor">
+                    <div class="card-body">
+                        <h5 class="card-title">Dr. Web Developer</h5>
+                        <p class="card-text">Web Development</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card doctor-card">
+                    <img src="images/medical.png" alt="Doctor">
+                    <div class="card-body">
+                        <h5 class="card-title">Dr. Web Developer</h5>
+                        <p class="card-text">Web Development</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card doctor-card">
+                    <img src="images/medical.png" alt="Doctor">
+                    <div class="card-body">
+                        <h5 class="card-title">Dr. Web Developer</h5>
+                        <p class="card-text">Web Development</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card doctor-card">
+                    <img src="images/medical.png" alt="Doctor">
+                    <div class="card-body">
+                        <h5 class="card-title">Dr. Web Developer</h5>
+                        <p class="card-text">Web Development</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card doctor-card">
+                    <img src="images/medical.png" alt="Doctor">
+                    <div class="card-body">
+                        <h5 class="card-title">Dr. Web Developer</h5>
+                        <p class="card-text">Web Development</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <div class="card doctor-card">
+                    <img src="images/medical.png" alt="Doctor">
+                    <div class="card-body">
+                        <h5 class="card-title">Dr. Web Developer</h5>
+                        <p class="card-text">Web Development</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section id="appointment">
+        <div class="appointment-div">
+            <h3 class="appointment-title">Book An Appointment</h3>
+
+            <div class="row">
+
+                <div class="col-md-6">
+                    <img src="images/calendar.png" alt="Appointment">
+                </div>
+
+                <div class="col-md-6">
+                    <form action="#home">
+                        <h5>Contact Details</h5>
+
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingName" placeholder="Mini Healthcare">
+                            <label for="floatingName">Name</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingEmail" placeholder="mini@healthcare.com">
+                            <label for="floatingEmail">Email Address</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="number" class="form-control" id="floatingNumber" placeholder="+91">
+                            <label for="floatingNumber">Contact Number</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="date" class="form-control" id="floatingBirth">
+                            <label for="floatingBirth">Birth Date</label>
+                        </div>
+
+                        <button type="submit" class="appointment-btn">Submit</button>
+
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Contact Footer -->
+    <footer id="contact">
+        <div class="row footer-div">
+            <div class="col-md-3 footer-section">
+                <h3>Quick Links</h3>
+                <a href="#"> <i class="fas fa-chevron-right"></i> Home</a><br>
+                <a href="#"> <i class="fas fa-chevron-right"></i> About Us</a><br>
+                <a href="#"> <i class="fas fa-chevron-right"></i> Facilities</a><br>
+                <a href="#"> <i class="fas fa-chevron-right"></i> Specialities</a><br>
+                <a href="#"> <i class="fas fa-chevron-right"></i> Doctors</a><br>
+                <a href="#"> <i class="fas fa-chevron-right"></i> Appointment</a>
+            </div>
+    
+            <div class="col-md-3 footer-section">
+                <h3>Our Specialities</h3>
+                <a href="#"> <i class="fas fa-chevron-right"></i> Dental Care</a><br>
+                <a href="#"> <i class="fas fa-chevron-right"></i> Massage Therapy</a><br>
+                <a href="#"> <i class="fas fa-chevron-right"></i> Cardiology</a><br>
+                <a href="#"> <i class="fas fa-chevron-right"></i> Urology</a><br>
+                <a href="#"> <i class="fas fa-chevron-right"></i> Diagnosis</a>
+            </div>
+    
+            <div class="col-md-3 footer-section">
+                <h3>Contact Info</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +123-456-7890</a><br>
+                <a href="#"> <i class="fas fa-phone"></i> +121-212-3443</a><br>
+                <a href="#"> <i class="fas fa-envelope"></i> minihealthcare@gmail.com</a><br>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> mars, milky way - 01</a>
+            </div>
+    
+            <div class="col-md-3 footer-section">
+                <h3>Follow Us</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> Facebook</a><br>
+                <a href="#"> <i class="fab fa-twitter"></i> Twitter</a><br>
+                <a href="#"> <i class="fab fa-instagram"></i> Instagram</a><br>
+                <a href="#"> <i class="fab fa-linkedin"></i> Linkedin</a><br>
+                <a href="#"> <i class="fab fa-pinterest"></i> Pinterest</a>
+            </div>
+
+            <hr>
+
+            <p>Created by Madhav Arora, 2022. All Rights Reserved</p>
+        </div>
+
+    </footer>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="javascript/index.js"></script>
+    
+</body>
+</html>
